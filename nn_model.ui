@@ -39,7 +39,7 @@
        <enum>QTabWidget::Rounded</enum>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <property name="tabBarAutoHide">
        <bool>false</bool>
@@ -498,25 +498,6 @@
           </property>
          </widget>
         </item>
-        <item row="21" column="0" colspan="3">
-         <widget class="QWidget" name="NN_picture" native="true">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="minimumSize">
-           <size>
-            <width>350</width>
-            <height>400</height>
-           </size>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(255, 255, 127);</string>
-          </property>
-         </widget>
-        </item>
         <item row="11" column="1">
          <spacer name="verticalSpacer">
           <property name="orientation">
@@ -731,6 +712,19 @@
            </size>
           </property>
          </spacer>
+        </item>
+        <item row="21" column="0" colspan="3">
+         <widget class="QLabel" name="NN_picture">
+          <property name="maximumSize">
+           <size>
+            <width>350</width>
+            <height>400</height>
+           </size>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
         </item>
        </layout>
       </widget>
